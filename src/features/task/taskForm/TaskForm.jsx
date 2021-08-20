@@ -25,7 +25,6 @@ const TaskForm = () => {
           {...register("taskTitle", {maxLength: 20})}
           className={styles.text_field}
         />
-        <button type="submit">Submit</button>
       </form>
     </div>
   );
